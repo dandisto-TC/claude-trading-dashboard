@@ -32,13 +32,13 @@ svg{width:100%;height:auto;display:block;margin-top:6px}
 pre{font-size:11px;white-space:pre-wrap;word-break:break-word;color:#888;margin:4px 0 0}
 </style></head><body>
 <h1>AI Portfolio Manager &#8212; run report</h1>
-<div class='meta'>generated 2026-11-04T06:20:37 &#183; latest rebalance: <span class='pill'>claude</span> 2026-11-02 07:22 (47.0h ago)</div>
-<div class='banner'><span class='chip proto'>PAPER &#183; $100K</span><span class='chip preproto'>MARKET CLOSED</span><span class='chip on'>STOPS 14/14</span><span class='chip on'>LEDGER CURRENT</span><span class='bmeta'>since 2026-08-31 &#183; 46 closes &#183; last 2026-11-03</span></div>
+<div class='meta'>generated 2026-11-04T07:20:47 &#183; latest rebalance: <span class='pill'>claude</span> 2026-11-02 07:22 (48.0h ago)</div>
+<div class='banner'><span class='chip proto'>PAPER &#183; $100K</span><span class='chip on'>MARKET OPEN</span><span class='chip on'>STOPS 14/14</span><span class='chip on'>LEDGER CURRENT</span><span class='bmeta'>since 2026-08-31 &#183; 46 closes &#183; last 2026-11-03</span></div>
 <h2>Market (index ETF proxies, daily close)</h2>
 <div class='tbl'><table><tr><th>Index</th><th>Proxy</th><th class='num'>Last</th><th class='num'>Day</th><th>Bar</th></tr>
-<tr><td>S&P 500</td><td>SPY</td><td class='num'>754.35</td><td class='num'><span class="pos">+0.30%</span></td><td>2026-11-03</td></tr>
-<tr><td>Nasdaq-100</td><td>QQQ</td><td class='num'>685.28</td><td class='num'><span class="pos">+0.62%</span></td><td>2026-11-03</td></tr>
-<tr><td>Dow (DJIA)</td><td>DIA</td><td class='num'>517.06</td><td class='num'><span class="neg">-0.44%</span></td><td>2026-11-03</td></tr>
+<tr><td>S&P 500</td><td>SPY</td><td class='num'>767.84</td><td class='num'><span class="pos">+1.79%</span></td><td>2026-11-04</td></tr>
+<tr><td>Nasdaq-100</td><td>QQQ</td><td class='num'>699.63</td><td class='num'><span class="pos">+2.09%</span></td><td>2026-11-04</td></tr>
+<tr><td>Dow (DJIA)</td><td>DIA</td><td class='num'>528.26</td><td class='num'><span class="pos">+2.17%</span></td><td>2026-11-04</td></tr>
 </table></div>
 <h2>Scoreboard &#8212; AI vs SPY vs quant-only shadow</h2>
 <div class='meta'>alpha vs SPY <b><span class="neg">-0.22%</span></b> &#183; AI value-add vs quant-only <b><span class="pos">+3.34%</span></b> &#183; off high-water mark <span class="neg">-4.55%</span> (high $103,298)</div>
@@ -86,23 +86,23 @@ pre{font-size:11px;white-space:pre-wrap;word-break:break-word;color:#888;margin:
 <tr><td>ADI</td><td class='buy'>BUY</td><td class='num'>$5,015</td><td>accepted</td></tr>
 </table></div>
 <h2>Positions &amp; P&amp;L</h2>
-<div class='meta'>equity $99,454.61 &#183; cash $5,141.50 (5%) &#183; 14 positions &#183; total unrealized <span class="pos">$1,365.79</span></div>
-<div class='meta'>vs $100,000 start <span class="neg">$-545.39</span> (<span class="neg">-0.55%</span>) <span style='color:#999'>&#183; live, includes today's intraday move &#8212; account health, not the scoreboard</span></div>
+<div class='meta'>equity $97,701.85 &#183; cash $5,141.50 (5%) &#183; 14 positions &#183; total unrealized <span class="neg">$-386.96</span></div>
+<div class='meta'>vs $100,000 start <span class="neg">$-2,298.15</span> (<span class="neg">-2.30%</span>) <span style='color:#999'>&#183; live, includes today's intraday move &#8212; account health, not the scoreboard</span></div>
 <div class='tbl'><table><tr><th>Symbol</th><th>Sector</th><th class='num'>Qty</th><th class='num'>Avg</th><th class='num'>Mkt val</th><th class='num'>Wt</th><th class='num'>P&amp;L</th><th class='num'>%</th><th class='num'>Stop</th></tr>
-<tr><td>TRV</td><td>Financials</td><td class='num'>21.464</td><td class='num'>389.13</td><td class='num'>$8,771</td><td class='num'>8.8%</td><td class='num'><span class="pos">$418.97</span></td><td class='num'><span class="pos">+5.02%</span></td><td class='num'>-17%</td></tr>
-<tr><td>BIIB</td><td>Health Care</td><td class='num'>32.347</td><td class='num'>238.69</td><td class='num'>$8,294</td><td class='num'>8.3%</td><td class='num'><span class="pos">$572.82</span></td><td class='num'><span class="pos">+7.42%</span></td><td class='num'>-16%</td></tr>
-<tr><td>BNY</td><td>Financials</td><td class='num'>50.722</td><td class='num'>144.62</td><td class='num'>$7,740</td><td class='num'>7.8%</td><td class='num'><span class="pos">$404.42</span></td><td class='num'><span class="pos">+5.51%</span></td><td class='num'>-16%</td></tr>
-<tr><td>MRK</td><td>Health Care</td><td class='num'>48.983</td><td class='num'>147.77</td><td class='num'>$7,266</td><td class='num'>7.3%</td><td class='num'><span class="pos">$28.01</span></td><td class='num'><span class="pos">+0.39%</span></td><td class='num'>-13%</td></tr>
-<tr><td>EXPD</td><td>Industrials</td><td class='num'>34.599</td><td class='num'>195.37</td><td class='num'>$7,118</td><td class='num'>7.2%</td><td class='num'><span class="pos">$358.83</span></td><td class='num'><span class="pos">+5.31%</span></td><td class='num'>-15%</td></tr>
-<tr><td>NUE</td><td>Materials</td><td class='num'>25.013</td><td class='num'>256.01</td><td class='num'>$6,958</td><td class='num'>7.0%</td><td class='num'><span class="pos">$554.97</span></td><td class='num'><span class="pos">+8.67%</span></td><td class='num'>-14%</td></tr>
-<tr><td>PSX</td><td>Energy</td><td class='num'>25.200</td><td class='num'>262.84</td><td class='num'>$6,798</td><td class='num'>6.8%</td><td class='num'><span class="pos">$174.43</span></td><td class='num'><span class="pos">+2.63%</span></td><td class='num'>-12%</td></tr>
-<tr><td>XOM</td><td>Energy</td><td class='num'>38.560</td><td class='num'>177.63</td><td class='num'>$6,748</td><td class='num'>6.8%</td><td class='num'><span class="neg">$-101.40</span></td><td class='num'><span class="neg">-1.48%</span></td><td class='num'>-12%</td></tr>
-<tr><td>VLO</td><td>Energy</td><td class='num'>16.679</td><td class='num'>440.03</td><td class='num'>$6,338</td><td class='num'>6.4%</td><td class='num'><span class="neg">$-1,001.23</span></td><td class='num'><span class="neg">-13.64%</span></td><td class='num'>-12%</td></tr>
-<tr><td>CAH</td><td>Health Care</td><td class='num'>23.207</td><td class='num'>235.19</td><td class='num'>$5,954</td><td class='num'>6.0%</td><td class='num'><span class="pos">$496.35</span></td><td class='num'><span class="pos">+9.09%</span></td><td class='num'>-15%</td></tr>
-<tr><td>CSX</td><td>Industrials</td><td class='num'>114.036</td><td class='num'>50.16</td><td class='num'>$5,859</td><td class='num'>5.9%</td><td class='num'><span class="pos">$138.86</span></td><td class='num'><span class="pos">+2.43%</span></td><td class='num'>-14%</td></tr>
-<tr><td>MPC</td><td>Energy</td><td class='num'>13.587</td><td class='num'>473.65</td><td class='num'>$5,688</td><td class='num'>5.7%</td><td class='num'><span class="neg">$-747.48</span></td><td class='num'><span class="neg">-11.62%</span></td><td class='num'>-11%</td></tr>
-<tr><td>ADI</td><td>Information Technology</td><td class='num'>12.800</td><td class='num'>429.65</td><td class='num'>$5,397</td><td class='num'>5.4%</td><td class='num'><span class="neg">$-102.07</span></td><td class='num'><span class="neg">-1.86%</span></td><td class='num'>-13%</td></tr>
-<tr><td>PFG</td><td>Financials</td><td class='num'>47.535</td><td class='num'>109.65</td><td class='num'>$5,382</td><td class='num'>5.4%</td><td class='num'><span class="pos">$170.31</span></td><td class='num'><span class="pos">+3.27%</span></td><td class='num'>-15%</td></tr>
+<tr><td>TRV</td><td>Financials</td><td class='num'>21.464</td><td class='num'>389.13</td><td class='num'>$8,607</td><td class='num'>8.8%</td><td class='num'><span class="pos">$254.56</span></td><td class='num'><span class="pos">+3.05%</span></td><td class='num'>-14%</td></tr>
+<tr><td>BIIB</td><td>Health Care</td><td class='num'>32.347</td><td class='num'>238.69</td><td class='num'>$8,033</td><td class='num'>8.2%</td><td class='num'><span class="pos">$312.42</span></td><td class='num'><span class="pos">+4.05%</span></td><td class='num'>-13%</td></tr>
+<tr><td>BNY</td><td>Financials</td><td class='num'>50.722</td><td class='num'>144.62</td><td class='num'>$7,637</td><td class='num'>7.8%</td><td class='num'><span class="pos">$301.71</span></td><td class='num'><span class="pos">+4.11%</span></td><td class='num'>-13%</td></tr>
+<tr><td>MRK</td><td>Health Care</td><td class='num'>48.983</td><td class='num'>147.77</td><td class='num'>$7,185</td><td class='num'>7.4%</td><td class='num'><span class="neg">$-53.30</span></td><td class='num'><span class="neg">-0.74%</span></td><td class='num'>-12%</td></tr>
+<tr><td>EXPD</td><td>Industrials</td><td class='num'>34.599</td><td class='num'>195.37</td><td class='num'>$7,109</td><td class='num'>7.3%</td><td class='num'><span class="pos">$349.14</span></td><td class='num'><span class="pos">+5.17%</span></td><td class='num'>-14%</td></tr>
+<tr><td>XOM</td><td>Energy</td><td class='num'>38.560</td><td class='num'>177.63</td><td class='num'>$6,650</td><td class='num'>6.8%</td><td class='num'><span class="neg">$-199.73</span></td><td class='num'><span class="neg">-2.92%</span></td><td class='num'>-11%</td></tr>
+<tr><td>NUE</td><td>Materials</td><td class='num'>25.013</td><td class='num'>256.01</td><td class='num'>$6,623</td><td class='num'>6.8%</td><td class='num'><span class="pos">$219.68</span></td><td class='num'><span class="pos">+3.43%</span></td><td class='num'>-10%</td></tr>
+<tr><td>PSX</td><td>Energy</td><td class='num'>25.200</td><td class='num'>262.84</td><td class='num'>$6,619</td><td class='num'>6.8%</td><td class='num'><span class="neg">$-4.24</span></td><td class='num'><span class="neg">-0.06%</span></td><td class='num'>-10%</td></tr>
+<tr><td>VLO</td><td>Energy</td><td class='num'>16.679</td><td class='num'>440.03</td><td class='num'>$6,171</td><td class='num'>6.3%</td><td class='num'><span class="neg">$-1,168.44</span></td><td class='num'><span class="neg">-15.92%</span></td><td class='num'>-10%</td></tr>
+<tr><td>CAH</td><td>Health Care</td><td class='num'>23.207</td><td class='num'>235.19</td><td class='num'>$5,894</td><td class='num'>6.0%</td><td class='num'><span class="pos">$436.16</span></td><td class='num'><span class="pos">+7.99%</span></td><td class='num'>-14%</td></tr>
+<tr><td>CSX</td><td>Industrials</td><td class='num'>114.036</td><td class='num'>50.16</td><td class='num'>$5,766</td><td class='num'>5.9%</td><td class='num'><span class="pos">$45.92</span></td><td class='num'><span class="pos">+0.80%</span></td><td class='num'>-13%</td></tr>
+<tr><td>MPC</td><td>Energy</td><td class='num'>13.587</td><td class='num'>473.65</td><td class='num'>$5,496</td><td class='num'>5.6%</td><td class='num'><span class="neg">$-940.01</span></td><td class='num'><span class="neg">-14.61%</span></td><td class='num'>-8%</td></tr>
+<tr><td>PFG</td><td>Financials</td><td class='num'>47.535</td><td class='num'>109.65</td><td class='num'>$5,434</td><td class='num'>5.6%</td><td class='num'><span class="pos">$221.65</span></td><td class='num'><span class="pos">+4.25%</span></td><td class='num'>-14%</td></tr>
+<tr><td>ADI</td><td>Information Technology</td><td class='num'>12.800</td><td class='num'>429.65</td><td class='num'>$5,337</td><td class='num'>5.5%</td><td class='num'><span class="neg">$-162.49</span></td><td class='num'><span class="neg">-2.96%</span></td><td class='num'>-12%</td></tr>
 </table></div>
 <div class='meta'>sector weights: Energy 26% &#183; Financials 22% &#183; Health Care 22% &#183; Industrials 13% &#183; Materials 7% &#183; Information Technology 5%</div>
 <h2>Stops &amp; guardrails</h2>
